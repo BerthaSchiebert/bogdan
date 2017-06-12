@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #0098ca;
+	font-family: "Times New Roman", sans-serif;
+	font-size: 16px;
+}
+a{
+	font-family: "Times New Roman", sans-serif;
+	text-decoration: none;
+}
+.header{
+	background: #0098ca;
+	padding: 40px 0 35px;
+    opacity: 0;
+}
+.headhesive {
+	background: #0098ca;
+	padding: 40px 0 35px;
+	opacity: 1;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+}
+.menu{
+	text-align: center;
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+}
+.menu ul li{
+	display: inline-block;
+	margin-right: 28px;
+}
+.menu ul li:last-child{
+	margin-right: 0;
+}
+.menu ul li a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+.menu ul li a:hover,
+.menu ul li a.active{
+	text-decoration: none;
+	border-bottom: 3px solid #fff;
+}
+.block-advertising{
+	background: #c6c6c6;
+	width: 300px;
+	height: 600px;
+	margin-top: 58px;
+	position: fixed;
+	z-index: 999;
+}
+.content{
+	padding: 11px 0 50px;
+}
+.breadcrumbs{
+    margin-bottom: 32px;
+}
+.breadcrumbs a{
+	color: #848383;
+	font-size: 12px;
+}
+.breadcrumbs a.b-black{
+	color: #000;
+}
+.breadcrumbs a.b-black:hover{
+	color: #000;
+}
+.breadcrumbs a:hover{
+	color: #848383;
+	text-decoration: none;
+}
+.content-post h5{
+	color: #010000;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: "Times New Roman", sans-serif;
+}
+.post{
+	margin-top: 25px;
+	border-left: 3px solid #0098ca;
+	cursor: pointer;
+}
+.post:hover{
+	border-left: 3px solid #3c00ff;
+}
+.pagynation{
+	text-align: center;
+	margin-top: 50px;
+}
+.pagynation ul li{
+	display: inline-block;
+	padding: 0 2px;
+}
+.pagynation ul li a:hover{
+	color: #3c00ff;
+	text-decoration: none;
+}
+.footer{
+	background: #000;
+	text-align: center;
+	padding: 15px 0;
+}
+.footer p{
+	color: #fff;
+	font-size: 12px;
+	margin: 0;
+}
+.content-post-inner h5{
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #000;
+	font-weight: 600;
+	margin: 35px 0 22px;
+    text-align: center;
+}
+.content-post-inner{
+	border-top: 3px solid #000;
+	padding-bottom: 100px;
+}
+.content-post-inner p{
+	color: #000;
+	padding-bottom: 10px;
+}
+.post h6{
+	color: #0098ca;
+	font-size: 16px;
+	margin: 0;
+	margin-bottom: 5px;
+	padding-left: 10px;
+}
+.post p{
+	color: #848383;
+	font-size: 14px;
+	padding-left: 10px;
+}
+.post:hover p{
+	color: #000;
+}
+.post:hover h6{
+	color: #3c00ff;
+}

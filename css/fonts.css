@@ -1,0 +1,10 @@
+/* font-family: "Museo Sans Cyrl 300"; */
+@font-face {
+    font-family: "Museo Sans Cyrl 300";
+    src: url("../fonts/Museo Sans Cyrl 300/Museo Sans Cyrl 300.eot");
+    src: url("../fonts/Museo Sans Cyrl 300/Museo Sans Cyrl 300.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Museo Sans Cyrl 300/Museo Sans Cyrl 300.woff") format("woff"),
+    url("../fonts/Museo Sans Cyrl 300/Museo Sans Cyrl 300.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
