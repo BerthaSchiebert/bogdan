@@ -11,8 +11,22 @@
 		margin-right: 20px;
 	}
 	.block-advertising{
-		position: relative;
-		z-index: 1;
+		display: none;
+	}
+	.menu{
+		display: none;
+	}
+	.toggle_mnu{
+		display: inline-block;
+	}
+	#cp{
+		display: block;
+	}
+	.header{
+		text-align: center;
+	}
+	.header p{
+		display: inline-block;
 	}
 
 }
@@ -25,7 +39,9 @@
 }
 
 @media only screen and (max-width : 690px) {
-	
+	.toggle_mnu{
+		margin-left: 220px;
+	}
 }
 
 @media only screen and (max-width : 645px) {
@@ -38,6 +54,7 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	
 }
 
 /* Custom, iPhone Retina */

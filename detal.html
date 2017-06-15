@@ -10,82 +10,103 @@
 	<link rel="stylesheet" href="js/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
 </head>
 <body>
-	<div class="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12">
-					<div class="menu">
-						<ul>
-							<li><a href="#">Главная страница</a></li>
-							<li><a class="active" href="#">Законы</a></li>
-							<li><a href="#">Нормативно-правовые акты</a></li>
-							<li><a href="#">Кодексы</a></li>
-							<li><a href="#">Конституция</a></li>
-						</ul>
+	<div class="wrapper">
+		<div class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12">
+						<div class="menu">
+							<ul>
+								<li><a href="#">Главная страница</a></li>
+								<li><a class="active" href="#">Законы</a></li>
+								<li><a href="#">Нормативно-правовые акты</a></li>
+								<li><a href="#">Кодексы</a></li>
+								<li><a href="#">Конституция</a></li>
+							</ul>
+						</div>
+						<button class="toggle_mnu" onclick="toggleCP()">
+							<span class="sandwich">
+								<span class="sw-topper"></span>
+								<span class="sw-bottom"></span>
+								<span class="sw-footer"></span>
+							</span>
+						</button>
+						<p>Главная страница</p>
+						<div id="cp">
+							<div class="top-menu-s">
+								<ul>
+									<li><a href="#">Главная страница</a></li>
+									<li><a href="#">Законы</a></li>
+									<li><a href="#">Нормативно-правовые акты</a></li>
+									<li><a href="#">Кодексы</a></li>
+									<li><a href="#">Конституция</a></li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="content">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-7 col-md-offset-1 col-md-push-3">
-					<div class="breadcrumbs">
-						<a href="#" class="b-black">Главная страница</a>
-						<a href="#" class="b-black">- Нормативно-правовые акты</a>
-						<a href="#">- Закон о правах потребителя</a>
+		<div class="content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="block-advertising"></div>
 					</div>
-					<div class="content-post-inner">
-						<h5>ЗАКОН О ПРАВАХ ПОТРЕБИТЕЛЕЙ</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-						et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						illum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-						qui officia deserunt mollit anim id est laborum.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-						et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						illum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-						qui officia deserunt mollit anim id est laborum.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-						et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						illum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-						qui officia deserunt mollit anim id est laborum.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-						et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						illum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-						qui officia deserunt mollit anim id est laborum.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-						et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						illum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-						qui officia deserunt mollit anim id est laborum.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-						et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						illum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-						qui officia deserunt mollit anim id est laborum.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-						et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						illum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-						qui officia deserunt mollit anim id est laborum.</p>
+					<div class="col-md-8">
+						<div class="breadcrumbs">
+							<a href="#" class="b-black">Главная страница</a>
+							<a href="#" class="b-black">- Нормативно-правовые акты</a>
+							<a href="#">- Закон о правах потребителя</a>
+						</div>
+						<div class="content-post-inner">
+							<h5>ЗАКОН О ПРАВАХ ПОТРЕБИТЕЛЕЙ</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+							et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+							aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							illum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+							qui officia deserunt mollit anim id est laborum.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+							et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+							aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							illum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+							qui officia deserunt mollit anim id est laborum.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+							et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+							aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							illum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+							qui officia deserunt mollit anim id est laborum.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+							et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+							aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							illum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+							qui officia deserunt mollit anim id est laborum.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+							et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+							aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							illum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+							qui officia deserunt mollit anim id est laborum.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+							et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+							aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							illum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+							qui officia deserunt mollit anim id est laborum.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+							et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+							aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							illum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+							qui officia deserunt mollit anim id est laborum.</p>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-3 col-md-pull-8">
-					<div class="block-advertising"></div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<p>Вся размещенная инофрмация на сайте публикуется исключительно в ознакомительных целях</p>
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<p>Вся размещенная инофрмация на сайте публикуется исключительно в ознакомительных целях</p>
+					</div>
 				</div>
 			</div>
 		</div>
