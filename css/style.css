@@ -65,7 +65,7 @@ a{
 	z-index: 999;
 }
 .content{
-	padding: 11px 0 50px;
+	padding: 11px 0 100px;
 }
 .breadcrumbs{
     margin-bottom: 32px;
@@ -247,7 +247,7 @@ a{
 #cp{
 	position: fixed;
 	right: -220px;
-	top: 0px;
+	top: 115px;
 	width: 220px;
 	height: 0px;
 	background: #0098ca;
